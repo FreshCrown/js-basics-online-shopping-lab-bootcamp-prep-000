@@ -61,7 +61,7 @@ function placeOrder(cardNumber) {
       return "Sorry, we don't have a credit card on file for you." 
     }
     for(var i = 0; i < cart.length; i++) {
-      if(cart[i] === 0){
+      if(){
       return  'Your total costis $73, which will be charged to the card 8172358.'
     }
   
