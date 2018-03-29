@@ -60,10 +60,10 @@ function placeOrder(cardNumber) {
     if(arguments[0] === undefined){
       return "Sorry, we don't have a credit card on file for you." 
     }
-    cart.length = [];
+    
     for(var i = 0; i < cart.length; i++) {
       if(cardNumber > 0){
-      
+      cart.length = [];
       return  `Your total cost is $${cart[0].itemPrice}, which will be charged to the card ${cardNumber}.`
    
     }
