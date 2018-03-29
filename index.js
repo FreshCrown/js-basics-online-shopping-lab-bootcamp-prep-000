@@ -63,6 +63,8 @@ function placeOrder(cardNumber) {
     for(var i = 0; i < cart.length; i++) {
       if(cardNumber > 0){
       return  `Your total cost is $${cart[0].itemPrice}, which will be charged to the card ${cardNumber}.`
+    } else(){
+      return 
     }
   
 }
